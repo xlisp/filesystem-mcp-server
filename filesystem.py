@@ -9,7 +9,7 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("filesystem-command")
 
 # Constants
-ALLOWED_EXTENSIONS = {'.txt', '.py', '.java', '.js', '.json', '.md', '.csv', '.log', '.yaml', '.yml', '.xml', '.html', '.css', '.sh', '.bat', '.clj', '.edn', '.cljs', '.cljc'}
+ALLOWED_EXTENSIONS = {'.txt', '.py', '.java', '.js', '.json', '.md', '.csv', '.log', '.yaml', '.yml', '.xml', '.html', '.css', '.sh', '.bat', '.clj', '.edn', '.cljs', '.cljc', '.dump'}
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
 BLOCKED_COMMANDS = {'rm', 'del', 'format', 'mkfs', 'dd', 'shutdown', 'reboot', 'halt', 'poweroff'}
 DEFAULT_ENCODING = 'utf-8'
