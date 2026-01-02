@@ -67,7 +67,8 @@ This MCP server enables AI assistants to interact with the local filesystem in a
 ### Install Dependencies
 
 ```bash
-pip install mcp
+# for termux: pkg install rust binutils python clang
+pip install "mcp[cli]"
 ```
 
 ### Install The Silver Searcher (Optional)
